@@ -1,0 +1,33 @@
+#tbl-customers tbody tr {
+  cursor: pointer;
+}
+#tbl-customers tr td:first-child, #tbl-customers tr th:first-child {
+  width: 75px;
+  text-align: center;
+}
+#tbl-customers tr td:last-child, #tbl-customers tr th:last-child {
+  width: 50px;
+  text-align: center;
+}
+#tbl-customers tr td:last-child:hover, #tbl-customers tr th:last-child:hover {
+  color: red;
+}
+
+#tbl-card {
+  padding-bottom: 20px;
+}
+#tbl-card .card-body {
+  height: 386px;
+  overflow-y: hidden;
+}
+
+.selected-row {
+  background-color: gray !important;
+}
+
+.tooltip-inner {
+  max-width: none;
+  background-color: red;
+}
+
+/*# sourceMappingURL=manage-customer-scss.css.map */

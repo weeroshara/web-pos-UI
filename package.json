@@ -1,0 +1,29 @@
+{
+  "name": "web-pos-ui",
+  "version": "1.0.0",
+  "description": "A simple pos application user interfaces that are built with following technologies. * HTML * CSS and SCSS * ECMAScript 5 * Bootstrap * jQuery * AdminLTE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ranjith-Suranga/web-pos-ui.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ranjith-Suranga/web-pos-ui/issues"
+  },
+  "homepage": "https://github.com/Ranjith-Suranga/web-pos-ui#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.12"
+  },
+  "dependencies": {
+    "admin-lte": "^3.0.5",
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "sweetalert2": "^10.2.0"
+  }
+}

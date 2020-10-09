@@ -1,0 +1,15 @@
+#tbl-search {
+  tbody tr{
+    cursor: pointer;
+  }
+  tr td,tr th{
+    &:first-child{
+      width: 105px !important;
+      text-align: center;
+    }
+  }
+}
+
+.selected-row{
+  background-color: gray !important;
+}

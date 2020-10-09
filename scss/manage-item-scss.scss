@@ -1,0 +1,37 @@
+#tbl-items {
+  tbody tr{
+    cursor: pointer;
+  }
+  tr td,tr th{
+    &:first-child{
+      width: 45px !important;
+      text-align: center;
+    }
+
+    &:last-child{
+      width: 40px !important;
+      text-align: center;
+
+      &:hover{
+        color: red;
+      }
+    }
+  }
+}
+
+#tbl-card{
+  padding-bottom: 20px;
+  .card-body{
+    height: 472px;
+    overflow-y: hidden;
+  }
+
+}
+
+.selected-row{
+  background-color: gray !important;
+}
+.tooltip-inner{
+  max-width: none;
+  background-color: red;
+}
